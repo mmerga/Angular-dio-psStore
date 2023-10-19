@@ -1,0 +1,11 @@
+.card-tag-container{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #141111;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-weight: bold;
+    min-width: 40%;
+    text-align: center;
+}

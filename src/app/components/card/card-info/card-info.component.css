@@ -1,0 +1,34 @@
+.card-info-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+   /*  height: 50px; */
+    background-color: #141111cb;
+    padding: 0.5rem ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-info-text{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-info-inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-info-inner-plataform{
+    color: #c3c3c3;
+}
+
+.card-info-inner-plataform span{
+    margin-right: 0.5em;
+}
+
+.card-info-inner-pipe{
+    margin: 0;
+    color: aqua;
+}

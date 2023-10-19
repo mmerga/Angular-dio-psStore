@@ -1,0 +1,10 @@
+<div class="card-info-container">
+    <p class="card-info-text">{{text}}</p>
+    <div class="card-info-inner">
+        <span class="card-info-inner-plataform">
+            <span class="card-info-inner-pipe">|</span>
+            <span *ngFor="let item of plataform">{{item}}</span>
+        </span>
+        <span class="card-info-inner-price">R$ {{price}}</span>
+    </div>
+</div>

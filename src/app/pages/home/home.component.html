@@ -1,0 +1,9 @@
+<div class="home-container">
+    <app-card *ngFor="let item of data"
+        imgUrl="{{item.imgUrl}}"
+        tag="{{item.tag}}"
+        text="{{item.text}}"
+        [plataform]="item.plataform"
+        price="{{item.price}}"
+    ></app-card>
+</div>
